@@ -35,10 +35,10 @@ const Mainpage = () => {
 
   // Hover styles
   const hoverColors: Record<string, string> = {
-    Red: "hover:text-red-600 hover:border-red-600 hover:bg-black/20",
-    Blue: "hover:text-blue-600 hover:border-blue-600 hover:bg-black/20",
-    Green: "hover:text-green-600 hover:border-green-600 hover:bg-black/20",
-    Black: "hover:text-gray-900 hover:border-gray-900 hover:bg-black/20",
+    Red: "hover:text-red-600 hover:border-red-600 hover:",
+    Blue: "hover:text-blue-600 hover:border-blue-600 hover:b",
+    Green: "hover:text-green-600 hover:border-green-600 hove",
+    Black: "hover:text-gray-900 hover:border-gray-900 hover:b",
   };
 
   const sizes = ["Red", "Blue", "Green", "Black"];
