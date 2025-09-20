@@ -3,7 +3,7 @@ import { Search, ShoppingBag, User } from "lucide-react"
 
 export function Navbar() {
   return (
-    <nav className="flex items-center justify-between h-20 relative z-10 px-20">
+    <nav className="flex items-center justify-between h-20 z-10 px-20">
       {/* Nike Logo */}
       <div className="flex items-center cursor-pointer">
         <img src={logo} alt="logo" className="w-32" />
