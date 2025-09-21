@@ -7,36 +7,36 @@ import blacknike from "../assets/images/blacknike.png";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Mainpage = () => {
-  const [selectedColor, setSelectedColor] = useState("Red");
+  const [selectedColor, setSelectedColor] = useState("Blue");
 
   // Gradient background per color
   const colorGradients: Record<string, string> = {
-    Red: "from-red-600 via-red-400 to-red-600",
     Blue: "from-blue-600 via-blue-400 to-blue-600",
+    Red: "from-red-600 via-red-400 to-red-600",
     Green: "from-green-600 via-green-400 to-green-600",
     Black: "from-gray-900 via-gray-700 to-gray-900",
   };
 
   // Shoe images per color
   const shoeImages: Record<string, string> = {
-    Red: rednike,
     Green: greennike,
+    Red: rednike,
     Blue: bluenike, // fallback (replace with blue image if you have one)
     Black: blacknike, // fallback (replace with black image if you have one)
   };
 
   // Active button styles
   const buttonColors: Record<string, string> = {
-    Red: "bg-red-600 text-white border-red-600",
     Blue: "bg-blue-600 text-white border-blue-600",
+    Red: "bg-red-600 text-white border-red-600",
     Green: "bg-green-600 text-white border-green-600",
     Black: "bg-gray-900 text-white border-gray-900",
   };
 
   // Hover styles
   const hoverColors: Record<string, string> = {
-    Red: "hover:text-red-600 hover:border-red-600 hover:",
     Blue: "hover:text-blue-600 hover:border-blue-600 hover:b",
+    Red: "hover:text-red-600 hover:border-red-600 hover:",
     Green: "hover:text-green-600 hover:border-green-600 hove",
     Black: "hover:text-gray-900 hover:border-gray-900 hover:b",
   };
@@ -108,7 +108,7 @@ const Mainpage = () => {
         {/* RIGHT SECTION */}
         <div className="relative flex items-center justify-center w-full ml-7">
           {/* Background NIKE text */}
-          <h1 className="absolute inset-0 flex items-center justify-center font-extrabold text-white text-[50vh] font-Nike tracking-tighter leading-none pointer-events-none select-none opacity-20">
+          <h1 className="absolute inset-0 flex items-center justify-center font-extrabold  text-white text-[50vh] font-Nike tracking-tighter leading-none pointer-events-none select-none opacity-20">
             NIKE
           </h1>
 
