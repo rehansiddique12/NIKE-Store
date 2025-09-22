@@ -36,6 +36,7 @@ const Mainpage = () => {
     Blue: "hover:text-blue-600 hover:border-blue-600 ",
     Green: "hover:text-green-600 hover:border-green-600 ",
   };
+  
 
   const sizes = ["Red", "Blue", "Green", "Black"];
 
@@ -69,7 +70,7 @@ const Mainpage = () => {
             </p>
             <p className="text-xl">
               <span className="font-semibold text-xl">COLOR WAY:</span>{" "}
-              SAIL/STARFISH-BLACK
+              SAIL/STARFISH-{selectedColor}
             </p>
           </motion.div>
 
